@@ -21,9 +21,10 @@
 */
 
 /* Main menu icon */
-li.wooc_menu{ /* This is the main menu icon. This is always required. */
-	background:url(menu.png) no-repeat 50% 50%; /*change image file name to your choice */
-	background-size:64px; /*precautionary, in case icons are not the right size;*/
+#primary-menu-nav .primary-menu > li.wooc_menu, /* This is the main menu icon. This is always required. */
+#primary-menu-nav .primary-menu > li.open.wooc_menu {
+	background:url(menu.png) no-repeat 50% 25%; /*change image file name to your choice */
+	background-size:40px; /*precautionary, in case icons are not the right size;*/
 }
 
 /* Mobile low resolution viewport */
